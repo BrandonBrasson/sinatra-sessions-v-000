@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe 'App' do
+puts describe 'App' do
   describe "GET '/'" do
     it "returns a 200 status code" do
       get '/'
@@ -8,7 +8,7 @@ describe 'App' do
     end
   end
 
-  describe "GET '/first_exercise'" do
+  puts describe "GET '/first_exercise'" do
     it "returns a 200 status code" do
       get '/first_exercise'
       expect(last_response.status).to eq(200)
